@@ -33,6 +33,9 @@ function initTyping() {
     timer = setInterval(initTimer, 1000);
     isTyping = true;
   }
+  if(typedChar > 240){
+    typingText.scrollHeight = 10;
+  }
   
   if(typedChar == null) {
     charIndex--;
