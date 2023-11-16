@@ -71,7 +71,7 @@ function initTimer() {
     clearInterval(timer);
   }
 }
-
+//button
 function resetGame() {
   randomParagraph();
   inpField.value = "";
