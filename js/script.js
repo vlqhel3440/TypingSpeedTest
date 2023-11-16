@@ -34,9 +34,9 @@ function initTyping() {
     isTyping = true;
   }
   if(typedChar > 240){
-    typingText.scrollHeight = 20;
+    typingText.scrollTop = 20;
   } else if (typedChar > 480){
-    typingText.scrollHeight = 40;
+    typingText.scrollTop= 40;
   }
   
   if(typedChar == null) {
